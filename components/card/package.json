@@ -16,5 +16,6 @@
   "license": "MIT",
   "dependencies": {
     "@myorg/button": "^1.1.12"
-  }
+  },
+  "gitHead": "a06befe18fcd53e80aa8252f4687caece70b06cd"
 }
