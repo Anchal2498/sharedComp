@@ -23,7 +23,6 @@ When a component is updated, Lerna can automatically update the versions of depe
 ## Publishing
 
 To publish packages:
-
 1. Make changes to one or more components
 2. Run `npx lerna version` to bump versions
 3. Run `npx lerna publish` to publish to npm
