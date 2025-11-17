@@ -1,6 +1,6 @@
 {
   "name": "@myorg/header",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A header component",
   "main": "index.js",
   "scripts": {
