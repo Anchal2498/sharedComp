@@ -1,6 +1,6 @@
 {
   "name": "@Anchal2498/button",
-  "version": "1.1.15",
+  "version": "1.1.16",
   "description": "A reusable button component",
   "main": "index.js",
   "scripts": {

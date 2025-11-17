@@ -1,6 +1,6 @@
 {
   "name": "@Anchal2498/card",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "A card component that uses the button component",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "@Anchal2498/button": "^1.1.15"
+    "@Anchal2498/button": "^1.1.16"
   },
   "gitHead": "3529b2dd5aed9d8f64b10f80eb98c7e67925ec70"
 }
