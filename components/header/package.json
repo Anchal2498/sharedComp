@@ -1,0 +1,18 @@
+{
+  "name": "@myorg/header",
+  "version": "1.0.0",
+  "description": "A header component",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "header",
+    "navigation",
+    "ui",
+    "component"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

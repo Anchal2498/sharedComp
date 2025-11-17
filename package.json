@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "components/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "publish": "lerna publish",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^9.0.1"
+  }
+}

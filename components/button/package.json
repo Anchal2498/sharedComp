@@ -1,0 +1,17 @@
+{
+  "name": "@myorg/button",
+  "version": "1.1.1",
+  "description": "A reusable button component",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "button",
+    "ui",
+    "component"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
