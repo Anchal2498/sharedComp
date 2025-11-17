@@ -1,6 +1,6 @@
 {
   "name": "@myorg/card",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A card component that uses the button component",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,6 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "@myorg/button": "^1.1.7"
+    "@myorg/button": "^1.1.8"
   }
 }
