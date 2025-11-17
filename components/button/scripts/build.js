@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // In a real scenario, this would compile/transpile the code
-console.log('Building @myorg/button component...');
+console.log('Building @Anchal2498/button component...');
 
 // Create a dist folder
 const distDir = path.join(__dirname, '../dist');
@@ -17,4 +17,4 @@ const destFile = path.join(distDir, 'index.js');
 
 fs.copyFileSync(srcFile, destFile);
 
-console.log('Build completed for @myorg/button');
+console.log('Build completed for @Anchal2498/button');

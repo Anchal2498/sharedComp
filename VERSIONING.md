@@ -6,9 +6,9 @@ This monorepo uses Lerna to manage versioning and automatic updates between depe
 
 When a component is updated and published, Lerna can automatically update the versions of dependent components. Here's how it works:
 
-1. **Version Bumping**: When you make changes to a component like `@myorg/button` and want to publish a new version, Lerna will prompt you to select the new version (major, minor, patch).
+1. **Version Bumping**: When you make changes to a component like `@Anchal2498/button` and want to publish a new version, Lerna will prompt you to select the new version (major, minor, patch).
 
-2. **Dependency Updates**: If `@myorg/card` depends on `@myorg/button` and you update the button component, Lerna will automatically update the dependency version in the card's package.json.
+2. **Dependency Updates**: If `@Anchal2498/card` depends on `@Anchal2498/button` and you update the button component, Lerna will automatically update the dependency version in the card's package.json.
 
 3. **Publishing**: When you run `npx lerna publish`, Lerna will:
    - Detect which packages have changed
@@ -26,7 +26,7 @@ Let's say you've made changes to the button component:
 4. Both packages get new version numbers
 5. Run `npx lerna publish` to publish both packages to npm
 
-This ensures that when someone installs the latest version of `@myorg/card`, they'll automatically get the updated version of `@myorg/button` that it was tested with.
+This ensures that when someone installs the latest version of `@Anchal2498/card`, they'll automatically get the updated version of `@Anchal2498/button` that it was tested with.
 
 ## Commands
 

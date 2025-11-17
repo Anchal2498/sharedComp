@@ -1,5 +1,5 @@
 // Card Component that uses Button
-const Button = require('@myorg/button');
+const Button = require('@Anchal2498/button');
 
 function Card(props) {
   const { title, content, buttonText, onButtonClick } = props;

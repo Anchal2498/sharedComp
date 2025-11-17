@@ -4,15 +4,15 @@ This is a monorepo containing multiple UI components that can be published as se
 
 ## Architecture
 
-- `/components/button` - A reusable button component (@myorg/button)
-- `/components/card` - A card component that uses the button component (@myorg/card)
-- `/components/header` - A header component (@myorg/header)
+- `/components/button` - A reusable button component (@Anchal2498/button)
+- `/components/card` - A card component that uses the button component (@Anchal2498/card)
+- `/components/header` - A header component (@Anchal2498/header)
 
 ## How It Works
 
 Each component has its own `package.json` file and can be published independently to npm.
 
-When a component is updated, Lerna can automatically update the versions of dependent components. For example, if `@myorg/button` is updated from version 1.1.1 to 1.2.0, Lerna can automatically update the dependency version in `@myorg/card`.
+When a component is updated, Lerna can automatically update the versions of dependent components. For example, if `@Anchal2498/button` is updated from version 1.1.1 to 1.2.0, Lerna can automatically update the dependency version in `@Anchal2498/card`.
 
 ## Commands
 

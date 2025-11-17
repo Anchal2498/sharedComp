@@ -1,5 +1,5 @@
 {
-  "name": "@myorg/button",
+  "name": "@Anchal2498/button",
   "version": "1.1.15",
   "description": "A reusable button component",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "ui",
     "component"
   ],
-  "author": "Your Name",
+  "author": "Anchal2498",
   "license": "MIT",
-  "gitHead": "e8d5aed94dc8dfdd44938d9e772137d2f1f285de"
+  "gitHead": "3529b2dd5aed9d8f64b10f80eb98c7e67925ec70"
 }
