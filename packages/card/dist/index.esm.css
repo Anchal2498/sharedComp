@@ -1,0 +1,42 @@
+/* src/Card.css */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  transition: box-shadow 0.2s ease;
+}
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+.card__header {
+  margin-bottom: 12px;
+}
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+.card__description {
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+.card__content {
+  margin-bottom: 16px;
+}
+.card__footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
