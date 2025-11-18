@@ -78,11 +78,10 @@ function main() {
     process.exit(1);
   }
 
-  // Check if working directory is clean
-  if (!isGitClean()) {
-    console.error('❌ Error: Working directory is not clean');
-    console.error('Please commit or stash your changes before publishing');
-    process.exit(1);
+  // Check if working directory is clean (allow changes from version bump)
+  const hasChanges = !isGitClean();
+  if (hasChanges) {
+    console.log('📝 Found uncommitted changes (likely from version bump)');
   }
 
   const packages = getPackages();

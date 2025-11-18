@@ -1,6 +1,6 @@
 {
   "name": "@anchalverma/button",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Button component",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
