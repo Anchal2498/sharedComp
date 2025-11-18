@@ -1,6 +1,6 @@
 {
   "name": "@anchalverma/card",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Card component",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
