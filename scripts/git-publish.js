@@ -97,9 +97,15 @@ function main() {
     console.log(`  ${packageJson.name}: v${packageJson.version}`);
   });
 
+  console.log('\n🔨 Building packages...\n');
+  
+  // Build all packages to ensure dist files are up to date
+  exec('npm run build');
+  console.log('  ✓ All packages built');
+
   console.log('\n📝 Committing changes...\n');
   
-  // Add all changes
+  // Add all changes including dist files
   exec('git add .');
   
   // Create commit message

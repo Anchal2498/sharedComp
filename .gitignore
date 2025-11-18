@@ -3,9 +3,13 @@ node_modules/
 package-lock.json
 
 # Build outputs
-dist/
+# dist/ - Keep dist for Git-based package distribution
 build/
 *.tsbuildinfo
+
+# Ignore dist in examples and root, but keep package dist
+/dist/
+examples/*/dist/
 
 # IDE
 .vscode/
