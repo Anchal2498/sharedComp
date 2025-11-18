@@ -1,16 +1,41 @@
 {
-  "name": "root",
+  "name": "@anchalverma/root",
+  "version": "1.0.0",
   "private": true,
+  "description": "Monorepo for shared React components",
   "workspaces": [
-    "components/*"
+    "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
-    "publish": "lerna publish",
-    "test": "lerna run test"
+    "build": "npm run build --workspaces --if-present",
+    "build:button": "npm run build --workspace=@sharedcomp/button",
+    "build:card": "npm run build --workspace=@sharedcomp/card",
+    "version:patch": "node scripts/version-bump.js patch",
+    "version:minor": "node scripts/version-bump.js minor",
+    "version:major": "node scripts/version-bump.js major",
+    "version:patch:git": "node scripts/version-bump-git.js patch",
+    "version:minor:git": "node scripts/version-bump-git.js minor",
+    "version:major:git": "node scripts/version-bump-git.js major",
+    "publish:git": "node scripts/git-publish.js",
+    "release:patch": "npm run version:patch:git && npm run publish:git",
+    "release:minor": "npm run version:minor:git && npm run publish:git",
+    "release:major": "npm run version:major:git && npm run publish:git",
+    "link:local": "npm run build && npm link --workspaces",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "lerna": "^9.0.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anchal2498/sharedComp.git"
+  },
+  "keywords": ["react", "components", "monorepo"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anchal2498/sharedComp/issues"
+  },
+  "homepage": "https://github.com/Anchal2498/sharedComp#readme",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=20.19.0"
   }
 }
