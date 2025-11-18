@@ -76,8 +76,8 @@ function getGitRepoUrl() {
     const url = execSync('git config --get remote.origin.url', { 
       encoding: 'utf8',
       stdio: 'pipe'
-    }).trim();
-    return url;
+    });
+    return url ? url.trim() : null;
   } catch (error) {
     return null;
   }
